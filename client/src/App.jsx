@@ -17,7 +17,7 @@ function App() {
 
   const fetchBotResponse = async () => {
     const { data } = await axios.post(
-      "http://localhost:8000",
+      "https://ai-app-reactjs.onrender.com",
       { input },
       {
         headers: {
